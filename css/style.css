@@ -1,0 +1,44 @@
+body {
+  background: url(../images/Elegant_Background-12.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.title {
+  border-bottom: 2px solid black;
+  margin-bottom: 40px;
+  color: white;
+}
+
+#home {
+  height: 400px;
+}
+
+#about {
+  margin: 20px;
+  height: 600px;
+/*  background: url(../images/Elegant_Background-18.jpg) no-repeat center center;*/
+  color: aliceblue;
+}
+
+#portfolio {
+  margin: 20px;
+  height: 600px;
+/*  background: url(../images/Elegant_Background-19.jpg) no-repeat center center;*/
+}
+
+#contact {
+  margin: 20px;
+  height: 600px;
+/*  background: url(../images/Elegant_Background-20.jpg) no-repeat center center;*/
+}
+
+#footer {
+  color: white;
+}
+
+/*http://archwall.xyz/wp-content/uploads/2016/03/other-car-lights-city-river-road-dawn-street-long-exposure-hd-pictures.jpg*/
+/*  background: url('http://archwall.xyz/wp-content/uploads/2015/12/other-dejctr-1000-city-night-refraction-best-wallpapers.jpg') no-repeat center center;
+*/
+#home button {
+  width: 100%;
+}
