@@ -1,23 +1,48 @@
 body {
-  background: url(../images/Elegant_Background-12.jpg) no-repeat center center fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('http://openwalls.com/image/11539/yellow_flowers_field_1920x1200.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
-.title {
-  border-bottom: 2px solid black;
-  margin-bottom: 40px;
-  color: white;
+nav {
+  width: 100%;
 }
 
 #home {
-  height: 400px;
+  height: 310px;
+}
+
+#home h1 {
+  color: white;
+  text-shadow: 5px 5px 10px #000000;
+}
+
+#home h3 {
+  height: 50px;
+  color: white;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+#home a {
+  margin: 5px 10px 5px 10px;
+  font-size: 1em;
+  width: 150px;
+}
+
+
+button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 
 #about {
-  margin: 20px;
-  height: 600px;
-/*  background: url(../images/Elegant_Background-18.jpg) no-repeat center center;*/
-  color: aliceblue;
+  height: 400px;
+/*  margin: 5px 5px 5px 5px;*/
+  background: url(../images/Elegant_Background-18.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 #portfolio {
@@ -33,12 +58,40 @@ body {
 }
 
 #footer {
+  height: 100px;
   color: white;
+/*  display: flex;*/
+/*  min-height: 100vh;*/
+/*  align-content: center;*/
 }
 
-/*http://archwall.xyz/wp-content/uploads/2016/03/other-car-lights-city-river-road-dawn-street-long-exposure-hd-pictures.jpg*/
-/*  background: url('http://archwall.xyz/wp-content/uploads/2015/12/other-dejctr-1000-city-night-refraction-best-wallpapers.jpg') no-repeat center center;
-*/
 #home button {
   width: 100%;
+}
+
+.portrait {
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px){
+  #home h1 {
+      line-height: 2.5em;
+      font-size: 5em;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  #home h1 {
+      line-height: 2.5em;
+      font-size: 5em;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  #home h1 {
+      line-height: 2.5em;
+      font-size: 5em;
+  }
 }
